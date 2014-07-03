@@ -1,0 +1,18 @@
+<head>
+  <title>IR-data-issue</title>
+</head>
+
+<template name="layout">
+  {{> yield}}
+</template>
+
+<template name="a">
+  <p>A</p>
+  {{helper 'a' this}}
+  <a href="/b">B</a>
+</template>
+
+<template name="b">
+  <p>B</p>
+  {{helper 'b' this}}
+</template>

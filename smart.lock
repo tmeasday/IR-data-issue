@@ -1,0 +1,41 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "feature/iron-layout"
+      },
+      "iron-layout": {
+        "git": "https://github.com/EventedMind/iron-layout.git",
+        "branch": "master"
+      },
+      "iron-dynamic-template": {
+        "git": "https://github.com/EventedMind/iron-dynamic-template.git",
+        "branch": "master"
+      }
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "feature/iron-layout",
+        "commit": "40e2e41644a0576964616d0e69a9bf7cff76d925"
+      },
+      "iron-layout": {
+        "git": "https://github.com/EventedMind/iron-layout.git",
+        "branch": "master",
+        "commit": "087b7b12fe23655827e5b83d04d82fcc61605ad2"
+      },
+      "iron-dynamic-template": {
+        "git": "https://github.com/EventedMind/iron-dynamic-template.git",
+        "branch": "master",
+        "commit": "6428914cb4f6d6e1c4b2e8fccbc08201a2ea6c1e"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.5",
+        "commit": "273e3ab7d005d91a1a59c71bd224533b4dae2fbd"
+      }
+    }
+  }
+}
